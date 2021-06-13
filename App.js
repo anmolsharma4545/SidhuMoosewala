@@ -51,3 +51,8 @@ var typeText = document.querySelector(".typeText");
     }
     // start animation
     playAnim();
+
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+      document.getElementById("my_audio").volume = 0.2;
+    }
